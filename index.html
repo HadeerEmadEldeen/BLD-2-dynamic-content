@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Udemy</title>
+  <link rel="stylesheet" href="/fontawesome-free-6.1.2-web/css/all.css">
+</head>
+
+<body >
+  <!-- start Nav-Bar-->
+  <div class="continer">
+    <ul class="nav-Bar">
+      <li class="menu-icon"><button><i class="fa-solid fa-bars"></i></button></li>
+      <li> <img class="logo" src="img/Udemy_logo.svg.png" alt="logo" /></li>
+      <li class="test"> <button class="without-border" type="button">Catorgries</button></li>
+      <li class="searchBar test">
+        <form onsubmit="searchButton();return false">
+          <button id="search-button" class="without-border" type="submit"><i
+              class="fa-solid fa-magnifying-glass"></i></button>
+          <input id="inputSearch" class="without-border" placeholder="Search for anything" />
+        </form>
+      </li>
+      <li class="test"><button class="without-border" type="button">Udemy Business</button></li>
+      <li class="test"><button class="without-border" type="button">Teach on Udemy</button> </li>
+      <li class="test "><button class="without-border shoping-icon"><i class="fa-solid fa-cart-shopping"></i></button>
+      </li>
+      <li class="test"><button type="button">Log in</button> </li>
+      <li class="test"><button class="signup" type="button">Sign up</button></li>
+      <li class="test"><button><i style="font-size: 20px;" class="fa-solid fa-globe"></i></button></li>
+    </ul>
+    <!-- End Nav-Bar-->
+
+
+    <!--Start header-->
+    <header class="headContiner">
+      <div class="head-Bar">
+        <h1>New to Udemy? Lucky you.</h1>
+        <h2>Courses start at E£169.99.Get your new-student offer befort it expires.</h2>
+      </div>
+      <img src="img/alarm.png" alt="alarm " class="alarmphoto" />
+    </header>
+    <!--End header-->
+    <section>
+      <h1>A broad selection of courses</h1>
+
+      <p>
+        Choose from 185,000 online video courseswith new additions published
+        every month
+      </p>
+
+      <div class="box_types">
+        <span class="type">Python</span>
+        <span class="type">Excel</span>
+        <span class="type">Web development</span>
+        <span class="type">JavaScript</span>
+        <span class="type">Data Science</span>
+        <span class="type">AWS Certification</span>
+        <span class="type">Drawing</span>
+      </div>
+      <div class="box">
+        <h2 class="marginrl">Expand your career opportunities with Python</h2>
+        <p class="marginrl">
+          Take one of Udemy’s r+,q\\-wp;4d of Python courses and learn how to code
+          using this incredibly useful language. Its simple syntax and
+          readability makes Python perfect for Flask, Django, data science, and
+          machine learning. You’ll learn how to build everything from games to
+          sites to apps. Choose from a range of courses that will appeal to
+        </p>
+        <button type="button" class="explore marginrl">Explore Python</button>
+        <br>
+        <br>
+        <div id="cards-element" class="new-cards marginrl" > </div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+<script src="https://kit.fontawesome.com/1f24a3ee93.js" crossorigin="anonymous"></script>
+
+
+</html>
