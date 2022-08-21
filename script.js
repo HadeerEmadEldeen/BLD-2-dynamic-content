@@ -5,8 +5,8 @@ function render (title, image, author, price) {
   Elementofcource = document.getElementById("cards-element");
   let CourseHTML =
  `
-            <div id="cards-element" class="new-cards marginrl ">
-            <a class="course" href="/course/learning-python-for-data-analysis-and-visualization/"><img
+ <article class="card ">
+            <a  href="/course/learning-python-for-data-analysis-and-visualization/"><img
             src="` +
     image +
     `" alt="pyhon" />
@@ -29,7 +29,7 @@ function render (title, image, author, price) {
           </div>
           <h5>E£1.599.99</h5>
         </a>
-            </div>
+        </article>
             `;
             Elementofcource.innerHTML += CourseHTML;
 };
